@@ -1,0 +1,111 @@
+.html-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.html-title {
+  color: #e34c26;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.html-description {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.html-features {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  border-left: 4px solid #e34c26;
+}
+
+.html-features h2 {
+  color: #2c3e50;
+  margin-top: 0;
+}
+
+.features-list {
+  padding-left: 1.5rem;
+}
+
+.features-list li {
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.features-list li::before {
+  content: "•";
+  color: #e34c26;
+  position: absolute;
+  left: -1.2rem;
+  font-weight: bold;
+}
+
+.html-example {
+  background: #f5f5f5;
+  color: #333;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin-bottom: 2rem;
+  border: 1px solid #ddd;
+}
+
+.html-example h3 {
+  color: #e34c26;
+  margin-top: 0;
+}
+
+pre {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+}
+
+.html-tags h3 {
+  color: #e34c26;
+}
+
+.tags-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.tag-card {
+  background: white;
+  border: 1px solid #e34c26;
+  border-radius: 4px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.tag-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.tag-name {
+  display: block;
+  font-family: monospace;
+  font-size: 1.1rem;
+  color: #e34c26;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}

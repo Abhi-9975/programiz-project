@@ -1,0 +1,47 @@
+.java-container {
+    text-align: center; 
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.java-title {
+    color: #5382a1;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.java-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.java-features {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    text-align: left;
+    display: inline-block;
+}
+
+.java-features ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.java-features li {
+    padding: 5px 0;
+    color: #444;
+}
+
+.java-features li:before {
+    content: "•";
+    color: #5382a1;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}

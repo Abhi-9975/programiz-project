@@ -1,0 +1,18 @@
+.css-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.css-title {
+  color: #2965f1;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.css-description {
+  color: #666;
+  font-size: 1.2rem;
+}

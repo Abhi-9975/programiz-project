@@ -1,0 +1,40 @@
+/* Simple Python Page Styling */
+.python-simple {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.python-simple h1 {
+    color: #3776ab; /* Python blue */
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.python-content {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #ffd43b; /* Python yellow */
+}
+
+.python-example {
+    margin-top: 1.5rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.python-example pre {
+    background: #f0f0f0;
+    padding: 0.8rem;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    color: #333;
+}

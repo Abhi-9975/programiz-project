@@ -1,0 +1,78 @@
+/* Main Container */
+.js-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Title */
+.js-title {
+    color: #f0db4f; /* JavaScript yellow */
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+/* Description */
+.js-description {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+/* Features Section */
+.js-features {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    border-left: 4px solid #f0db4f;
+}
+
+.js-features h2 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+.features-list {
+    padding-left: 1.5rem;
+}
+
+.features-list li {
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.features-list li::before {
+    content: "→";
+    color: #f0db4f;
+    position: absolute;
+    left: -1.5rem;
+}
+
+/* Code Example */
+.js-example {
+    background: #abb2bf;
+    color: #abb2bf;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+.js-example h3 {
+    color: #f0db4f;
+    margin-top: 0;
+}
+
+pre {
+    margin: 0;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+}

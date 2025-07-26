@@ -1,0 +1,76 @@
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Router Container Styles */
+.router-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Page Transition Animation */
+.page-enter {
+  opacity: 0;
+  transform: scale(0.98);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: scale(0.98);
+  transition: opacity 300ms, transform 300ms;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .router-container {
+    padding: 0 15px;
+  }
+}
+
+/* Link Styles (for navigation) */
+.nav-link {
+  text-decoration: none;
+  color: #2965f1;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #1a4fc4;
+}
+
+/* Active Route Indicator */
+.active-link {
+  font-weight: bold;
+  border-bottom: 2px solid #2965f1;
+}
+
+/* Content Container */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  flex: 1;
+}
+
+/* Footer Styles */
+.app-footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  margin-top: auto;
+}
