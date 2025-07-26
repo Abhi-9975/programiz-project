@@ -1,5 +1,5 @@
 import React from 'react';
-import './Python.css';
+import './python.css';
 
 function Python() {
     return (
